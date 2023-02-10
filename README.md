@@ -2,6 +2,7 @@
 sql user login admin, database creation, filter and join tables
 
 ## Login to mysql on command line
+`$ $ mysql --version;`
 `$ mysql -u root -p secretpasword ;`
 
 ## Create user
@@ -75,6 +76,13 @@ $ CREATE TABLE `pages` (
 ##  Stored Procedures and Routines pl/sql
 
 `$ `
+`$ `
+`$ `
+
+##  For Sequelpro error fix: 
+- authentication-plugin-caching-sha2-password-cannot-be-loaded 
+
+`$ ALTER USER 'webuser'@'localhost' IDENTIFIED WITH mysql_native_password BY 'secretpassword';`
 `$ `
 `$ `
 
